@@ -26,7 +26,6 @@ oci-terraform
 - Then you will have to modify `env-vars` with your data account.
 
 ## Infraestructure
-The resources deployed include the following:
   - 1 Virtual Cloud Network
      + Security List (Ingress and Egress rules)
      + Internet Gateway
