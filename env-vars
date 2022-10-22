@@ -1,0 +1,8 @@
+export TF_VAR_tenancy_ocid="ocid1.tenancy.xxx"
+export TF_VAR_user_ocid="ocid1.user.xxx"
+export TF_VAR_compartment_ocid="ocid1.tenancy.xxx"
+export TF_VAR_fingerprint=$(cat /home/saul/.oci/oci_api_key_fingerprint)
+export TF_VAR_region="eu-madrid-1"
+export TF_VAR_private_key_path="/home/saul/.oci/terraform_oci.pem"
+export TF_VAR_ssh_public_key=$(cat /home/saul/.ssh/oci-ssh.pub)
+export TF_VAR_ssh_private_key=$(cat /home/saul/.ssh/oci-ssh)
