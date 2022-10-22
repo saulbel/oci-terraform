@@ -2,7 +2,7 @@ resource "oci_core_instance" "terraform-instance" {
   availability_domain = "${lookup(data.oci_identity_availability_domains.ADs.availability_domains[var.availability_domain - 1],"name")}"
   compartment_id      = "${var.compartment_ocid}"
   shape               = "${var.instance_shape}"
-  count               = "${var.NumInstances}"
+  count               = "${var.num_instances}"
   display_name        = "terraform-instance"
   
   create_vnic_details {
